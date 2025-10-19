@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#contextMenu{
+    color: rgb(0, 0, 0);
+    width: 150px;
+    height: 220px;
+    background-color: rgb(255, 255, 255, .80);
+    display: none; 
+    
+    margin-left: 50px;
+    margin-top: 50px;
+
+    border-style: solid;
+    border-color: rgb(94, 94, 94);
+    border-radius: 10%;
+}
+
+#image-copy{
+    margin-top: 16px;
+    padding-right: 10px;
+}
+
+#image-save{
+    margin-top: 14px;
+    padding-right: 10px;
+}
+
+#image-print{
+    margin-top: 20px;
+    padding-right: 10px;
+    
+}
+
+.maybe{
+    font-size: 19px;
+    padding-left: 30px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#div3{
+
+    border-bottom: rgb(79, 76, 72);
+    border-bottom-style: solid;
+
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+#div4{
+
+    padding-top: 10px;
+    padding-bottom: 22px;
+}
+
+#div1:hover{
+    color: white;
+    background-color: orangered;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    transition: 0.3s;
+}
+
+#div2:hover{
+    color: white;
+    background-color: orangered;
+    transition: 0.3s;
+}
+
+#div3:hover{
+    color: white;
+    background-color: orangered;
+    transition: 0.3s;
+}
+
+#div4:hover{
+    color: white;
+    background-color: orangered;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    transition: 0.3s;
+}
